@@ -50,4 +50,8 @@ extension ListViewController: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "listToSlide", sender: nil)
+    }
+    
 }

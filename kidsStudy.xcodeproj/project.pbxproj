@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F4313BD29D581A10077DD92 /* SlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4313BC29D581A10077DD92 /* SlidesViewController.swift */; };
+		9F4313C129D583370077DD92 /* slideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F4313C029D583370077DD92 /* slideView.xib */; };
+		9F4313C329D588E20077DD92 /* slideUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4313C229D588E20077DD92 /* slideUIView.swift */; };
 		9F76C69829B2434500B4438A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76C69729B2434500B4438A /* AppDelegate.swift */; };
 		9F76C69A29B2434500B4438A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76C69929B2434500B4438A /* SceneDelegate.swift */; };
 		9F76C69C29B2434500B4438A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F76C69B29B2434500B4438A /* ViewController.swift */; };
@@ -21,6 +24,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F4313BC29D581A10077DD92 /* SlidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidesViewController.swift; sourceTree = "<group>"; };
+		9F4313C029D583370077DD92 /* slideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = slideView.xib; sourceTree = "<group>"; };
+		9F4313C229D588E20077DD92 /* slideUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = slideUIView.swift; sourceTree = "<group>"; };
 		9F76C69429B2434500B4438A /* kidsStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kidsStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F76C69729B2434500B4438A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9F76C69929B2434500B4438A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -74,6 +80,9 @@
 				9F76C6A229B2434700B4438A /* LaunchScreen.storyboard */,
 				9F76C6A529B2434700B4438A /* Info.plist */,
 				9F76C6AB29B243CF00B4438A /* kurt.mp3 */,
+				9F4313BC29D581A10077DD92 /* SlidesViewController.swift */,
+				9F4313C029D583370077DD92 /* slideView.xib */,
+				9F4313C229D588E20077DD92 /* slideUIView.swift */,
 			);
 			path = kidsStudy;
 			sourceTree = "<group>";
@@ -164,6 +173,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4313C129D583370077DD92 /* slideView.xib in Resources */,
 				9F76C6AC29B243CF00B4438A /* kurt.mp3 in Resources */,
 				9F76C6A429B2434700B4438A /* LaunchScreen.storyboard in Resources */,
 				9F76C6A129B2434700B4438A /* Assets.xcassets in Resources */,
@@ -178,11 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4313BD29D581A10077DD92 /* SlidesViewController.swift in Sources */,
 				9F76C69C29B2434500B4438A /* ViewController.swift in Sources */,
 				9F76C6B729B37F8300B4438A /* ListData.swift in Sources */,
 				9F76C69829B2434500B4438A /* AppDelegate.swift in Sources */,
 				9F76C6B529B37F0C00B4438A /* ListViewModel.swift in Sources */,
 				9F76C6AE29B2628E00B4438A /* ListViewController.swift in Sources */,
+				9F4313C329D588E20077DD92 /* slideUIView.swift in Sources */,
 				9F76C69A29B2434500B4438A /* SceneDelegate.swift in Sources */,
 				9F76C6B029B2643900B4438A /* ListTableViewCell.swift in Sources */,
 			);

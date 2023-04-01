@@ -140,11 +140,44 @@
                     <navigationItem key="navigationItem" id="aWe-Ua-V1Y"/>
                     <connections>
                         <outlet property="tableView" destination="qTl-Xd-LiW" id="jiR-OE-N6c"/>
+                        <segue destination="DEi-ud-FyJ" kind="show" identifier="listToSlide" id="aHc-Nv-sbn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="45B-Xa-y7d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1721.3740458015266" y="-27.464788732394368"/>
+        </scene>
+        <!--Slides View Controller-->
+        <scene sceneID="ynC-Un-fqq">
+            <objects>
+                <viewController id="DEi-ud-FyJ" customClass="SlidesViewController" customModule="kidsStudy" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KM8-3R-yrD">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Owr-WJ-wgJ">
+                                <rect key="frame" x="0.0" y="59" width="393" height="759"/>
+                                <viewLayoutGuide key="contentLayoutGuide" id="EPW-2b-yDn"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="h1s-75-m5k"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="QAC-Yu-VOL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Owr-WJ-wgJ" firstAttribute="trailing" secondItem="QAC-Yu-VOL" secondAttribute="trailing" id="6ZL-JY-NXG"/>
+                            <constraint firstItem="Owr-WJ-wgJ" firstAttribute="bottom" secondItem="QAC-Yu-VOL" secondAttribute="bottom" id="Lso-Kf-acY"/>
+                            <constraint firstItem="Owr-WJ-wgJ" firstAttribute="leading" secondItem="QAC-Yu-VOL" secondAttribute="leading" id="WSG-GF-bdw"/>
+                            <constraint firstItem="Owr-WJ-wgJ" firstAttribute="top" secondItem="QAC-Yu-VOL" secondAttribute="top" id="nCy-tL-Phk"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="pVn-Aw-gZP"/>
+                    <connections>
+                        <outlet property="scrollView" destination="Owr-WJ-wgJ" id="E3W-MZ-Maa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7jk-v8-fOY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2448.0916030534349" y="-27.464788732394368"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="3f0-Kr-2kH">
